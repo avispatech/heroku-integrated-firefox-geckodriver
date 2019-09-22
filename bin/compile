@@ -131,7 +131,7 @@ export PKG_CONFIG_PATH="\$HOME/.apt/usr/lib/x86_64-linux-gnu/pkgconfig:\$HOME/.a
 export TMPDIR="\$BUILD_DIR/tmp"
 EOF
 
-export PATH="$BUILD_DIR/.apt/usr/bin:$PATH:\$BUILD_DIR/vendor/firefox:\$BUILD_DIR/vendor/geckodriver:\$PATH"
+export PATH="$BUILD_DIR/.apt/usr/bin:$PATH:\$BUILD_DIR/vendor/firefox:$BUILD_DIR/vendor/geckodriver:$PATH"
 export LD_LIBRARY_PATH="$BUILD_DIR/.apt/usr/lib/x86_64-linux-gnu:$BUILD_DIR/.apt/usr/lib/i386-linux-gnu:$BUILD_DIR/.apt/usr/lib:\$BUILD_DIR/vendor/firefox:\$BUILD_DIR/vendor/geckodriver:\$LIBRARY_PATH"
 export LIBRARY_PATH="$BUILD_DIR/.apt/usr/lib/x86_64-linux-gnu:$BUILD_DIR/.apt/usr/lib/i386-linux-gnu:$BUILD_DIR/.apt/usr/lib:\$BUILD_DIR/vendor/firefox:\$BUILD_DIR/vendor/geckodriver:\$LIBRARY_PATH"
 export INCLUDE_PATH="$BUILD_DIR/.apt/usr/include:$BUILD_DIR/.apt/usr/include/x86_64-linux-gnu:$INCLUDE_PATH"
